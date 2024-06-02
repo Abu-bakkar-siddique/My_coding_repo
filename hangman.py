@@ -16,7 +16,6 @@ English_alphabets = string.ascii_letters
 n = 10
 
 #getting input
-
 while n > 0 :
 
     User_typed_letter = input (
@@ -70,7 +69,3 @@ while n > 0 :
     elif n == 0 :
         print ("you lost ") 
         break               
-  
-   
-
-

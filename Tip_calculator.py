@@ -11,15 +11,13 @@ def main () :
 
 
 def dollars_to_float(d):
-    d = d.replace("$" , "")
-    d = float (d)
+    return  float(d.replace("$" , ""))
+    # d = float (d)
 
-    return d
+    # return d
 
 def percent_to_float(p):
-    p = p.replace("%" , "")
-    p = float(p)
-    return p 
+    return float(p.replace("%" , ""))
 
 main ()
 

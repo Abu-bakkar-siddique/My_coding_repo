@@ -1,6 +1,7 @@
 import string
 import sys
 import random
+
 alpha = string.ascii_letters
 dig = string.digits
 punc = string.punctuation
@@ -11,6 +12,7 @@ def validating_len():
     except ValueError:
         sys.exit("please enter valid length")
     return l_en
+
 
 def check_length(l):
     if l % 2 == 0:
